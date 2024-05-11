@@ -1,3 +1,22 @@
+body {
+  background-color: #f4f4f4;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+text-decoration: none;
+color: #333;
+}
+.footer a{
+  color: #333;
+}
+
 .profile-picture {
   border-radius: 50%;
   background-size: cover;
@@ -6,13 +25,14 @@
   height: 300px;
   transition: transform 0.8s ease-in-out;
   cursor: pointer;
-  background-image: url("../images/IMG-20240307-WA0001.jpg");
+  background-image: url("../images/profile.jpg");
 }
 
 .profile-picture:hover {
   transform: rotate(360deg);
   background-image: url("../images/pic.jpg");
 }
+
 .certificate img {
   width: 100%;
   height: auto;
@@ -49,7 +69,8 @@
 .contact-card a:hover {
   color: #007bff;
 }
-#footer-text{
-    text-decoration: none;
-    color:#fff;
+
+#footer-text {
+  text-decoration: none;
+  
 }
